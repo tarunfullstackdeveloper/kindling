@@ -870,7 +870,7 @@
         </div>
     </div>
     <!-- Partners & Supporters End -->
-      <div data-w-id="5ba7509e-6ffc-f4c3-d40d-ac5781f1611a" class="_300vh">
+      <div data-w-id="5ba7509e-6ffc-f4c3-d40d-ac5781f1611a" class="_300vh desktopslide">
          <div class="_100vh">
             <img src="https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17.png" loading="lazy" sizes="(max-width: 1966px) 100vw, 1966px" srcset="https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17-p-500.png 500w, https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17-p-800.png 800w, https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17-p-1080.png 1080w, https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17-p-1600.png 1600w, https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17.png 1966w" alt="" class="image-20"/><img src="https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f59ee3e5dc659edbd3fd_dbed81229da897c1f25fefcc62094ef9_top.png" loading="lazy" sizes="(max-width: 1038px) 100vw, 1038px" srcset="https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f59ee3e5dc659edbd3fd_dbed81229da897c1f25fefcc62094ef9_top-p-500.png 500w, https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f59ee3e5dc659edbd3fd_dbed81229da897c1f25fefcc62094ef9_top-p-800.png 800w, https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f59ee3e5dc659edbd3fd_dbed81229da897c1f25fefcc62094ef9_top.png 1038w" alt="" class="image-21"/>
             <div class="text-block">Voices that inspire<br/><span class="outlinehead">change</span><br/><span class="outlinehead">everywhere</span></div>
@@ -891,6 +891,43 @@
                </div>
             </div>
          </div>
+      </div>
+
+      <div class="mobileslide" style="display: none;">
+        <div class="voiceempiresec">
+          <div class="voiceempiresecinnr" style="background-image: url('https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f5a078b62e0559a82904_17.png') ;">
+            <div class="vectorimg">
+              <img src="https://cdn.prod.website-files.com/67ed099db95fd9bd34e6a7e0/68b7f59ee3e5dc659edbd3fd_dbed81229da897c1f25fefcc62094ef9_top.png" alt="Image">
+            </div>
+            <div class="container">
+              <div class="headingbox">
+                <h2>
+                    Voices that inspire <span class="outlinehead">change</span> <br><span class="outlinehead">everywhere</span>
+                </h2>
+              </div>
+              <div class="voiceslider">
+                <div class="voiceslide">
+                  <div class="slideinnrvoice">
+                    <p>“Kindling’s support has given our community the knowledge and confidence to face fire risks head-on. What once felt overwhelming is now manageable and we feel safer, more prepared, and more united than ever”</p>
+                    <h4>– Amina Khumalo, Community Organizer</h4>
+                  </div>
+                </div>
+                <div class="voiceslide">
+                  <div class="slideinnrvoice">
+                    <p>“Kindling’s support has given our community the knowledge and confidence to face fire risks head-on. What once felt overwhelming is now manageable and we feel safer, more prepared, and more united than ever”</p>
+                    <h4>– Amina Khumalo, Community Organizer</h4>
+                  </div>
+                </div>
+                <div class="voiceslide">
+                  <div class="slideinnrvoice">
+                    <p>“Kindling’s support has given our community the knowledge and confidence to face fire risks head-on. What once felt overwhelming is now manageable and we feel safer, more prepared, and more united than ever”</p>
+                    <h4>– Amina Khumalo, Community Organizer</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Tools and Insights Start -->
@@ -1296,23 +1333,6 @@
               ]
           });
           if ($(window).width() > 480) { 
-            $('.stackholderslider').slick({
-              slidesToShow: 3.5,
-              slidesToScroll: 1,
-              infinite: false,
-              arrows: false,
-              dots: false,
-              swipe: false,
-                responsive: [
-                  {
-                    breakpoint: 480,
-                    settings: {
-                      slidesToShow: 1.5,
-                      slidesToScroll: 1
-                    }
-                  }
-                ]
-            });
           gsap.registerPlugin(ScrollTrigger);
 
           let totalSlides = $(".stackholderslide").length;
@@ -1332,6 +1352,14 @@
             }
           });
         }
+        
+            $('.voiceslider').slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: false,
+              arrows: false,
+              dots: true,
+            });
         });
       </script>
       <script>
