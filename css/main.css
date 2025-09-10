@@ -1635,7 +1635,7 @@ footer {
   height: 50vh;
 }
 ._100vh._2 {
-  padding-top: 7vh;
-  height: 50vh;
+    padding-top: 0;
+    height: 400px;
 }
 }
