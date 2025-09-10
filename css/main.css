@@ -1363,6 +1363,12 @@ a.btn.orangebtn:hover {
 }
 
 @media(max-width: 500px) {
+.desktopslide {
+  display: none;
+}
+.mobileslide {
+  display: block !important;
+}
 .headerline {
   display: none;
 }
@@ -1611,5 +1617,15 @@ footer {
 .insighthp .bloginnr .blogcontent a.btn {
   margin-top: 3rem;
   font-size: 16px;
+}
+.ourstakholderssec {
+    height: auto;
+}
+.ourstakholderssec .headingbox h2 {
+  font-size: 34px;
+  margin-top: 0;
+}
+.ourstakholderssec {
+  padding: 80px 0 !important;
 }
 }
