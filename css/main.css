@@ -1628,4 +1628,14 @@ footer {
 .ourstakholderssec {
   padding: 80px 0 !important;
 }
+.toolsandinsightssec {
+  overflow: hidden;
+}
+._100vh._1 {
+  height: 50vh;
+}
+._100vh._2 {
+  padding-top: 7vh;
+  height: 50vh;
+}
 }
