@@ -1267,4 +1267,349 @@ a.btn.orangebtn:hover {
 }
 
 @media(max-width: 800px) {
+  .header-menu-box, .header-btn-box.hide-1024 {
+    display: none;
+  } 
+  .humburgurmenu {
+    display: inline-block !important;
+  }
+  .mainbanner h2 {
+    font-size: 9rem;
+    line-height: 1.4;
+  }
+  h2.bannerhead2 {
+    line-height: 1.3;
+    margin-top: -40px;
+  }
+  .header-wrapper {
+    padding: 0;
+  }
+  .bannerslider .slick-slide {
+    padding: 10px;
+  }
+  .bannerslider .slick-current {
+    padding-right: 22px;
+  }
+  .bannerslider {
+    padding-left: 40px;
+  }
+  .atkidlingsec .headingbox {
+    flex-wrap: wrap;
+  }
+  .atkidlingsec .headingbox .head {
+    max-width: 100%;
+  }
+  .atkidlingsec .headingbox .para {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .boxinnr {
+    padding: 30px;
+  }
+  .col-third {
+    width: calc(100% / 2);
+  }
+  .col-forth {
+    width: calc(100% / 2);
+  }
+  .insighthp .bloginnr {
+    margin-bottom: 3rem;
+  }
+  .invitationglobal h2 {
+    font-size: 8.8rem;
+  }
+  .image-23 {
+    width: 70%;
+  }
+  .div-block-109 {
+    width: 42%;
+  }
+  .header-menu-box .close {
+    display: inline-block !important;
+    position: absolute;
+    top: 20px;
+    right: 40px;
+  }
+  .header-menu-box {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background: #a53428;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+  }
+  .header-menu-box.active {
+    display: block;
+  }
+  .header-menu-box nav.header-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header-menu-box nav.header-menu ul {
+    display: block;
+    width: 100%;
+  }
+
+  .header-menu-box nav.header-menu ul li a {
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: block;
+    color: #fff;
+    font-weight: 500;
+  }
+}
+
+@media(max-width: 500px) {
+.headerline {
+  display: none;
+}
+.container {
+  padding: 0 20px;
+}
+.mainbanner h2 {
+  font-size: 34px;
+  text-align: left;
+}
+h2.bannerhead2 {
+  line-height: 1.3;
+  margin-top: 0;
+}
+.bannerhead2 svg {
+  width: 30px;
+  height: 40px;
+  top: 4px;
+  position: relative;
+}
+.header {
+    padding-top: 15px;
+}
+.bannerslider .slick-current {
+    padding-right: 10px;
+    transform: none;
+}
+.bannerslider .slick-current .image {
+  height: 44rem;
+  width: 100%;
+  margin-top: 0;
+}
+.bannerslider {
+  padding-left: 15px;
+}
+.pdlr60 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.col-third, .col-forth {
+    width: calc(100% / 1);
+}
+.atkidlingsec .headingbox h2 {
+  font-size: 30px;
+}
+.atkindlingbox {
+  flex-wrap: wrap;
+}
+.atkindlingbox .col-third {
+    transform: none!important;
+    margin-top: 0 !important;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+.ourstakholderssec {
+    padding: 50px 0 !important;
+}
+.stackholderslider {
+    margin-bottom: 0;
+    height: 100%;
+}
+.ourstakholderssec .headingbox h2 {
+  font-size: 34px;
+}
+.ourstakholderssecinnr {
+    height: 100%;
+}
+.ourstakholderssec {
+    height: 100vh;
+}
+.ourcoreofferingsec .headingbox h2, .ourallworksec .headingbox h2, .ourpartnersec .headingbox h2 {
+    font-size: 28px;
+}
+.ourcoreofferingsec .headingbox h2 svg {
+    height: 9rem;
+}
+.offerservicecol .offerserviceinnr h2 {
+  font-size: 16px;
+   line-height: 1.6;
+}
+.offerservicecol .offerserviceinnr .image {
+    height: 200px;
+}
+.ourallworksec .headingbox h2 {
+    font-size: 30px;
+}
+.featuredworkbox {
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.featuredheadbox {
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.featuredheadbox a.btn.whitebtn {
+  margin-right: auto;
+  margin-left: 0;
+  margin-top: 20px;
+}
+.workrow.flex-box {
+  margin-bottom: 40px;
+}
+img.image-21 {
+    inset: 20% auto auto 0%;
+}
+.text-block {
+  font-size: 10vw;
+  inset: 7% auto auto 6%;
+  width: 90vw;
+}
+._100vh {
+    height: 70vh;
+}
+.div-block-107 {
+  z-index: 3;
+  position: absolute;
+  inset: auto 6% 15% 6%;
+}
+.text-block-3 {
+  font-size: 16px;
+}
+.text-block-2 {
+  font-size: 14px;
+}
+.toolsandinsightssec {
+  background: #FBF8E9;
+  padding: 10rem 0 6rem;
+}
+.toolsandinsightssec .headingbox h2 {
+  font-size: 30px;
+}
+.insighthp .col-forth {
+  padding: 0px 6px;
+  width: 50%;
+}
+.insighthp .bloginnr .blogcontent h4 {
+  font-size: 13px;
+  min-height: 50px;
+}
+.insighthp .bloginnr .blogcontent a.btn {
+  margin-top: 3rem;
+  font-size: 10px;
+}
+.invitationglobal h2 {
+  font-size: 35px;
+}
+img.image-22 {
+    width: 80px;
+    margin-bottom: 60px;
+}
+.div-block-108 {
+  padding: 30px 30px;
+}
+.div-block-108 i {
+  font-size: 16px;
+}
+.div-block-111 {
+  width: 100%;
+  opacity: 1 !important;
+  transform: none !important;
+}
+.div-block-109 {
+    width: 100%;
+  opacity: 1 !important;
+  transform: none !important;
+}
+.image-23 {
+    width: 100%;  
+  opacity: 1 !important;
+  transform: none !important;
+}
+.image-23._1, .image-23._2 {
+  display: none !important;
+}
+._200vh {
+    height: 650px;
+}
+._100vh _3 {
+    height: 100%;
+}
+footer.sitefooter .col-4 {
+  width: 100%;
+}
+footer.sitefooter p, footer.sitefooter ul li a {
+  font-size: 18px;
+}
+footer.sitefooter .col-3 {
+    width: 50%;
+}
+footer.sitefooter .col-3:not(:last-child) {
+    margin: 40px 0;
+}
+footer.sitefooter .footerhead h4 {
+  font-size: 22px;
+}
+.copyright {
+  flex-wrap: wrap;
+  gap: 20px;
+  text-align: left;
+  justify-content: left;
+}
+footer.sitefooter ul li {
+  width: 100%;
+}
+.copyright ul.copylinks {
+  flex-wrap: wrap;
+  gap: 0;
+}
+footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.footerlogo {
+  margin-bottom: 20px;
+}
+.getinvolved {
+    width: 100%;
+}
+.toolsandinsightssec .insighthp.flex-box {
+  display: flex;
+  width: auto;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  flex-wrap: nowrap;
+  margin-left: -6%;
+  margin-right: -13%;
+  margin-bottom: 0;
+  padding-left: 12%;
+  padding-right: 5%;
+  padding-bottom: 0px;
+  justify-content: flex-start;
+}
+.toolsandinsightssec .col-forth {
+  width: 80%;
+  min-width: 300px;
+  max-width: 300px;
+  padding: 0 6px;
+  white-space: normal;
+}
+.insighthp .bloginnr .blogcontent p {
+  font-size: 16px;
+}
+.insighthp .bloginnr .blogcontent a.btn {
+  margin-top: 3rem;
+  font-size: 16px;
+}
 }
